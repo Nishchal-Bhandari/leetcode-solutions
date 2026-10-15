@@ -8,11 +8,11 @@
 **Status:** Accepted<br>
 **Submitted:** 2026-10-15 19:29 local time
 
-**Runtime:** 2 ms (beats 67.2122%)
-**Memory:** 19.9 MB (beats 99.98060000000001%)
+**Runtime:** 1 ms (beats 72.219%)
+**Memory:** 20.3 MB (beats 54.702500000000015%)
 
 
-<!-- leetgit:submissionId=2173065405 codeHash=1c51f653a269802b52b17d1c992581f68e5f4c8c6dca5722876455f46b85c39d notesHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 -->
+<!-- leetgit:submissionId=2173065852 codeHash=465001f560b36f42aadece68ead8c2f198c90374752786c1f0afc1c6d78fb34f notesHash=e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 -->
 
 ## Solution
 
@@ -23,6 +23,6 @@ class Solution:
         for i in range(1,len(prices)):
             if prices[i]>prices[i-1]:
                 profit+=prices[i]-prices[i-1]
-
+                
         return profit
 ```
